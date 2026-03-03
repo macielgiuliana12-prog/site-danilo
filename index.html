@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
-<title>1 Ano com Você</title>
+<title>1 ano de nós!</title>
 
 <style>
 body {
@@ -15,7 +15,7 @@ body {
 
 .container {
     padding: 40px;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -65,18 +65,17 @@ button:hover {
 }
 
 .galeria {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .fotos {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
 .fotos img {
-    width: 250px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
     border-radius: 20px;
@@ -97,19 +96,19 @@ button:hover {
     <h2>05 de Março — 1 Ano Juntos</h2>
     <div class="heart">❤️</div>
 
-    <p>
-        Um ano vivendo o nosso amor.
-    </p>
-
     <button onclick="mostrarMensagem()">Clique aqui 💌</button>
 
     <div id="mensagem" class="hidden">
 
-        <p><strong>Esta vida ao seu lado é a realização do sonho de viver um grande amor.</strong></p>
+        <p><em>“Foi como voltar para casa depois de um dia longo.”</em></p>
 
         <p>
-        “Foi como voltar para casa depois de um dia longo.”
         Há poucos dias li essa frase e pensei no nosso amor.
+        </p>
+
+        <p>
+        Você é o meu mar calmo, minha brisa fresca, meu ponto de paz, meu amor gentil.
+        Com você o tempo é bom e feliz.
         </p>
 
         <p>
@@ -134,8 +133,29 @@ button:hover {
         e é nela que a certeza esbarra.
         </p>
 
+        <p>
+        No dia que te conheci, eu ganhei na loteria!
+        Quem diria que o mundo seguia seu ritmo escolhendo a dedo azarados e sortudos,
+        e na minha vez, no meio de tanta gente sem nenhuma graça,
+        o universo me apresentou você, todo engraçadinho,
+        me fazendo acreditar que existem momentos bons na vida.
+        E pela primeira vez em toda minha existência,
+        me senti protagonista e sortuda.
+        </p>
+
+        <p>
+        É uma coisa extraordinária quando conhecemos alguém
+        com quem podemos dividir a nossa alma.
+        Quem nos aceita como somos.
+        </p>
+
+        <p>
+        Obrigada por me trazer calma, meu grande e único amor.
+        </p>
+
         <div class="assinatura">
-            Eternamente sua, G.
+            Serei eternamente sua! <br>
+            Com amor, G.
         </div>
 
     </div>
@@ -143,11 +163,15 @@ button:hover {
     <div class="galeria">
         <h2>Nossos Momentos 📸</h2>
         <div class="fotos">
-            <img src="foto1.jpeg" alt="Nossa Foto 1">
-            <img src="foto2.jpeg" alt="Nossa Foto 2">
-            <img src="foto3.jpeg" alt="Nossa Foto 3">
+            <img src="foto1.jpg.jpeg">
+            <img src="foto2.jpg.jpeg">
+            <img src="foto3.jpg.jpeg">
+            <img src="foto4.jpg.jpeg">
+            <img src="foto5.jpg.jpeg">
+            <img src="foto6.jpg.jpeg">
         </div>
     </div>
+
 </div>
 
 <script>
